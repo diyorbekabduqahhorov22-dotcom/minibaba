@@ -1,13 +1,15 @@
 import React, { useState } from 'react';
 import { BrowserRouter, Routes, Route, Navigate, useLocation } from 'react-router-dom';
-import Sidebar from './ui/Sidebar/Sidebar';
-import Navbar from './ui/Navbar/Navbar';
+
+import Sidebar from './ui/sidebar/sidebar';
+import Navbar from './ui/navbar/navbar';
+
 import Home from './pages/home/home';
 import Mahsulotlar from './pages/mahsulotlar/mahsulotlar';
 import Buyurtmalar from './pages/buyurtmalar/Buyurtmalar';
 import Xabarlar from './pages/xabarlar/Xabarlar';
 import Statistika from './pages/statistika/Statistika';
-import { pageTitles } from './config/pageTitles';  
+import { pageTitles } from './config/pageTitles'; 
 import './App.css';
 
 function AppContent() {
@@ -51,6 +53,7 @@ function AppContent() {
     </div>
   );
 }
+
 const App = () => {
   return (
     <BrowserRouter>
