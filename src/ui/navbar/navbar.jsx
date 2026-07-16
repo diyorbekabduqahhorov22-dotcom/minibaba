@@ -2,7 +2,7 @@ import React from 'react';
 import { AiOutlineBell, AiOutlineSearch, AiOutlineMenu } from 'react-icons/ai';
 import './Navbar.css';
 
-const Navbar = ({ title = "Sahifa", onMenuClick }) => {
+const navbar = ({ title = "Sahifa", onMenuClick }) => {
   return (
     <div className="m1">
       <button className="m0" onClick={onMenuClick} aria-label="Menyu">
@@ -29,4 +29,4 @@ const Navbar = ({ title = "Sahifa", onMenuClick }) => {
   );
 };
 
-export default Navbar;
+export default navbar;
