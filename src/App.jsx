@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import { BrowserRouter, Routes, Route, Navigate, useLocation } from 'react-router-dom';
 
-import Sidebar from './ui/sidebar/Sidebar';
-import Navbar from './ui/navbar/Navbar';
+ 
 
 import Home from './pages/home/home';
 import Mahsulotlar from './pages/mahsulotlar/mahsulotlar';
@@ -11,6 +10,8 @@ import Xabarlar from './pages/xabarlar/Xabarlar';
 import Statistika from './pages/statistika/Statistika';
 import { pageTitles } from './config/pageTitles'; 
 import './App.css';
+import Sidebar from './ui/Sidebar/Sidebar';
+import Navbar from './ui/Navbar/Navbar';
 
 function AppContent() {
   const location = useLocation();
@@ -27,7 +28,7 @@ function AppContent() {
         />
       )}
 
-      <Sidebar 
+      <Sidebar
         currentPath={location.pathname} 
         isOpen={sidebarOpen} 
         onClose={() => setSidebarOpen(false)} 
