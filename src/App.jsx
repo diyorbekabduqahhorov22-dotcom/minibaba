@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { BrowserRouter, Routes, Route, Navigate, useLocation } from 'react-router-dom';
 
-import Sidebar from './ui/sidebar/sidebar';
-import Navbar from './ui/navbar/navbar';
+import Sidebar from './ui/sidebar/Sidebar';
+import Navbar from './ui/navbar/Navbar';
 
 import Home from './pages/home/home';
 import Mahsulotlar from './pages/mahsulotlar/mahsulotlar';
