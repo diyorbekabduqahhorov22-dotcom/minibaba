@@ -1,8 +1,5 @@
 import React, { useState } from 'react';
 import { BrowserRouter, Routes, Route, Navigate, useLocation } from 'react-router-dom';
-
- 
-
 import Home from './pages/home/home';
 import Mahsulotlar from './pages/mahsulotlar/mahsulotlar';
 import Buyurtmalar from './pages/buyurtmalar/Buyurtmalar';
@@ -11,8 +8,7 @@ import Statistika from './pages/statistika/Statistika';
 import { pageTitles } from './config/pageTitles'; 
 import './App.css';
 import Sidebar from './ui/Sidebar/Sidebar';
-import Navbar from './ui/Navbar/Navbar';
-
+import Navbar from "./ui/Navbar/Navbar";
 function AppContent() {
   const location = useLocation();
   const title = pageTitles[location.pathname] || 'Sahifa'; 
