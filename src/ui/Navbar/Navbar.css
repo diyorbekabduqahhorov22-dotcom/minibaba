@@ -1,6 +1,6 @@
 
 .m0 {
-  display: none; 
+  display: none;
   background: none;
   border: none;
   font-size: 24px;
@@ -20,13 +20,12 @@
 .m1 {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   background: #ffffff;
-  border-bottom: 1px solid #e5e7eb;
-  padding: 16px 32px;
+  border-bottom: 1px solid #E2E8F0;
+  padding: 15px 20px;
+  gap: 20px;
   position: sticky;
-  padding: 15px;
-  height: 20px;
   top: 0;
   z-index: 50;
 }
@@ -38,6 +37,7 @@
   margin: 0;
   min-width: 150px;
   letter-spacing: -0.5px;
+  white-space: nowrap;
 }
 
 .m3 {
@@ -50,10 +50,13 @@
 
 .m4 {
   position: absolute;
+  top: 50%;
   left: 16px;
+  transform: translateY(-50%);
   font-size: 18px;
   color: #9ca3af;
   pointer-events: none;
+  z-index: 2;
 }
 
 .m5 {
@@ -82,15 +85,16 @@
   display: flex;
   align-items: center;
   gap: 12px;
-  margin: 0;
+  margin: 0 0 0 12px;
 }
 
 .m7 {
   cursor: pointer;
-  font-size: 20px;
-  color: #6b7280;
+  font-size: 23px;
+  color: #64748B;
   display: flex;
   align-items: center;
+  margin-left: 490px;
   justify-content: center;
   transition: all 0.2s;
 }
@@ -140,6 +144,8 @@
 
   .m7 {
     font-size: 18px;
+    width: 36px;
+    height: 36px;
   }
 }
 
@@ -174,6 +180,7 @@
   .m6 {
     order: 2;
     gap: 6px;
+    margin: 0;
   }
 
   .m7 {
@@ -194,7 +201,7 @@
 
   .m5 {
     font-size: 14px !important;
-    min-height: 44px; 
+    min-height: 44px;
   }
 
   .m7 {

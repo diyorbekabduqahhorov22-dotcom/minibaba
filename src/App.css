@@ -8,18 +8,14 @@
 body {
   font-family: 'Manrope', sans-serif;
   background: #f3f4f6;
-  overflow-x: hidden; 
   width: 100%;
-  min-width: 320px; 
+  min-width: 320px;
 }
 
 #root {
   width: 100%;
   min-width: 320px;
-  overflow-x: hidden; 
 }
-
-
 
 .a1 {
   display: flex;
@@ -46,17 +42,9 @@ body {
   max-width: 100%;
 }
 
-.m3{
-  margin-left: -590px;
-}
-
-.m7{
-  margin-left: -52px;
-}
 .l9 {
-  min-width: 300px; 
+  min-width: 300px;
 }
-
 
 .sidebar-overlay {
   display: none;
@@ -68,11 +56,6 @@ body {
   background: rgba(0, 0, 0, 0.5);
   z-index: 999;
   backdrop-filter: blur(2px);
-}
-
-.l28{
-  margin-left: 1109px;
-  margin-top: 35px;
 }
 
 @media (max-width: 768px) {
@@ -97,7 +80,7 @@ body {
 
 @media (max-width: 480px) {
   html, body {
-    font-size: 16px; 
+    font-size: 16px;
   }
 
   .a3 {
