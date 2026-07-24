@@ -1,4 +1,5 @@
-html, body {
+
+body {
   margin: 0;
   padding: 0;
   background: #f3f4f6;
@@ -96,7 +97,7 @@ html, body {
 }
 
 .l9:hover {
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 .l10 {
@@ -116,8 +117,8 @@ html, body {
 
 .l11 {
   position: absolute;
-  bottom: 43px; 
-  left: 30px;   
+  bottom: 43px;
+  left: 30px;
   background: #FFFFFFE5;
   color: #475569;
   font-size: 9px;
@@ -212,26 +213,6 @@ html, body {
   border-radius: 8px;
   cursor: pointer;
   font-size: 18px;
-  color: #EF4444;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #ffffff;
-  transition: all 0.2s;
-}
-
-.l23:hover {
-  background: #FEF2F2;
-  border-color: #FECACA;
-}
-
-.l222 {
-  width: 36px;
-  height: 36px;
-  border: 1px solid #E2E8F0;
-  border-radius: 8px;
-  cursor: pointer;
-  font-size: 18px;
   color: #475569;
   display: flex;
   align-items: center;
@@ -240,17 +221,37 @@ html, body {
   transition: all 0.2s;
 }
 
-.l222:hover {
+.l23:hover {
   background: #F8FAFC;
   border-color: #CBD5E1;
 }
 
-.l26 {
+.l24 {
+  width: 36px;
+  height: 36px;
+  border: 1px solid #E2E8F0;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #EF4444;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  transition: all 0.2s;
+}
+
+.l24:hover {
+  background: #FEF2F2;
+  border-color: #FECACA;
+}
+
+.l25 {
   text-align: center;
   margin-top: 32px;
 }
 
-.l27 {
+.l26 {
   padding: 12px 32px;
   background: #ffffff;
   border: 1px solid #e5e7eb;
@@ -263,12 +264,12 @@ html, body {
   transition: all 0.2s;
 }
 
-.l27:hover {
+.l26:hover {
   background: #f9fafb;
   border-color: #d1d5db;
 }
 
-.l28 {
+.l27 {
   width: 194px;
   height: 56px;
   background: #F47B25;
@@ -284,18 +285,152 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 1100px; 
+  margin-left: 1100px;
   margin-top: 45px;
 }
 
-.l28:hover {
+.l27:hover {
   background: #c2410c;
   color: #FFFFFF;
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(234, 88, 12, 0.5);
 }
 
+.l28 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(15, 23, 42, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 20px;
+}
 
+.l29 {
+  background: #ffffff;
+  border-radius: 14px;
+  width: 100%;
+  max-width: 480px;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+}
+
+.l30 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 24px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.l30 h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.l31 {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  border: none;
+  background: #f3f4f6;
+  color: #475569;
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.l31:hover {
+  background: #e5e7eb;
+  color: #111827;
+}
+
+.l32 {
+  padding: 20px 24px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.l33 {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex: 1;
+}
+
+.l33 label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #374151;
+}
+
+.l33 input {
+  padding: 10px 12px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #1f2937;
+  background: #f9fafb;
+}
+
+.l33 input:focus {
+  outline: none;
+  background: #ffffff;
+  border-color: #F47B25;
+}
+
+.l34 {
+  display: flex;
+  gap: 12px;
+}
+
+.l35 {
+  display: flex;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.l36 {
+  flex: 1;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  background: #ffffff;
+  color: #374151;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.l36:hover {
+  background: #f9fafb;
+}
+
+.l37 {
+  flex: 1;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background: #F47B25;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.l37:hover {
+  background: #c2410c;
+}
 
 @media (max-width: 768px) {
   .l1 {
@@ -315,7 +450,6 @@ html, body {
     overflow-x: auto;
     white-space: nowrap;
     padding-bottom: 4px;
-    -webkit-overflow-scrolling: touch;
   }
 
   .l4 {
@@ -358,8 +492,7 @@ html, body {
     gap: 12px;
   }
 
-  .l28 {
-    position: fixed;
+  .l27 {
     bottom: 24px;
     right: 24px;
     left: auto;
@@ -401,7 +534,7 @@ html, body {
     gap: 6px;
   }
 
-  .l28 {
+  .l27 {
     bottom: 16px;
     right: 16px;
     font-size: 14px;

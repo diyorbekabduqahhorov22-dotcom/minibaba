@@ -9,6 +9,7 @@ import { pageTitles } from './config/pageTitles';
 import './App.css';
 import Sidebar from './ui/Sidebar/Sidebar';
 import Navbar from "./ui/Navbar/Navbar";
+
 function AppContent() {
   const location = useLocation();
   const title = pageTitles[location.pathname] || 'Sahifa'; 
@@ -19,7 +20,7 @@ function AppContent() {
     <div className="a1">
       {sidebarOpen && (
         <div 
-          className="sidebar-overlay" 
+          className="sid" 
           onClick={() => setSidebarOpen(false)}
         />
       )}

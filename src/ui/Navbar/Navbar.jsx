@@ -10,16 +10,16 @@ const Navbar = ({ title = "Sahifa", onMenuClick }) => {
       </button>
 
       <h1 className="m2">{title}</h1>
-      
+
       <div className="m3">
         <AiOutlineSearch className="m4" />
-        <input 
-          type="text" 
+        <input
+          type="text"
           placeholder="Mahsulot nomi yoki SKU bo'yicha qidiruv..."
           className="m5"
         />
       </div>
-      
+
       <div className="m6">
         <span className="m7">
           <AiOutlineBell />
